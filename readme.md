@@ -10,7 +10,7 @@ When installed, the tool can be found in "Settings" > "Au Revoir Avada".
 
 !important - make sure you backup your database before committing any final changes to ensure there is no data loss - use of this plugin is at your own risk.
 
-![Screenshot](Screenshot.png)
+![Screenshot](screenshot.png)
 
 ## Changelog
 
