@@ -12,5 +12,7 @@ When installed, the tool can be found in "Settings" > "Au Revoir Avada".
 
 ![Screenshot](Screenshot.png)
 
+## Changelog
+
 ### 07/11/2023
 Initial Build
