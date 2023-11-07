@@ -1,9 +1,9 @@
 <?php
 
 /*
- * Plugin Name: Aurevoir Avada
- * Plugin URI:  https://www.full-circle-marketing.co.uk
- * Description: A simple plugin to remove all traces of Avada Shortcodes from your content. Based on https://victorfont.com/remove-divi-shortcodes-changing-themes/
+ * Plugin Name: Au Revoir Avada
+ * Plugin URI:  https://github.com/quoMC/au-revoir-avada
+ * Description: A simple plugin to remove all traces of Avada Shortcodes from your content. Based on https://victorfont.com/remove-divi-shortcodes-changing-themes/ and "Bye Bye Divi!" by Sean Barton https://www.sean-barton.co.uk/2017/12/bye-bye-divi/
  * Author:      Matt Cruse - Full Circle Marketing
  * Version:     1.0
  * Author URI:  https://www.full-circle-marketing.co.uk
@@ -70,6 +70,7 @@ function mc_aa_submenu_cb()
                 FROM ' . $wpdb->posts . '
                 WHERE
                     post_type = "page"
+                    OR post_type = "post"
                     AND post_status = "publish"
                     AND post_content LIKE "%[fusion_%"
                     AND post_content != ""
