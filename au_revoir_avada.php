@@ -48,7 +48,7 @@ function mc_aa_box_end()
 }
 
 function mc_remove_avada_shortcodes( $content ) {
-    $content = trim(preg_replace('/\[\/?fusion.*?\]/gm', '', $content));
+    $content = trim(preg_replace('/\[\/?fusion.*?\]/', '', $content));
     return $content;
 }
 
